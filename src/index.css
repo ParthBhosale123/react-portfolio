@@ -7,22 +7,12 @@
 :root {
   font-family: "Inter", sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
-} */
-
-/* Hide scrollbar for all browsers */
-html {
-  overflow-y: scroll; /* Ensures scrolling is possible */
+  overflow-y: scroll; /* Ensures scrolling works */
+  scrollbar-width: none; /* Firefox */
 }
 
-/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for Firefox */
-html {
-  scrollbar-width: none;
+  display: none; /* Chrome, Safari */
 }
