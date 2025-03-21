@@ -1,12 +1,13 @@
 # React Portfolio Website
 
 ## Live Demo
-[Parth's Portfolio](https://parthbhosale123.github.io/react-portfolio/)
+[Parth's Portfolio](https://react-portfolio-nltu7g63x-parth-bhosales-projects.vercel.app)
 
 ## Description
 This is a fully responsive and interactive personal portfolio website built using **React.js** and **Tailwind CSS**. The website showcases professional information, skills, projects, education, and contact details.
 
 ## Features
+
 - **Fully Responsive UI** using Tailwind CSS
 - **Smooth Animations & Transitions** powered by Framer Motion
 - **Dynamic Navigation Bar** with sections: About Me, Skills, Projects, Education
@@ -15,14 +16,14 @@ This is a fully responsive and interactive personal portfolio website built usin
 - **Social Media & Coding Profiles Links**
 - **Back to Top Button** with smooth scrolling
 - **Typewriter Effect** in Hero Section
-- **Deployed on GitHub Pages**
+- **Deployed on Vercel**
 
 ## Technologies Used
 - **React.js** - Frontend library
 - **Tailwind CSS** - Styling framework
 - **Framer Motion** - Animations & transitions
 - **React Icons** - Icons for social links and UI elements
-- **GitHub Pages** - Hosting and deployment
+- **Vercel** - Hosting and deployment
 
 ## Project Structure
 ```
@@ -67,10 +68,10 @@ react-portfolio/
    ```
 
 ## Deployment
-This portfolio is deployed using **GitHub Pages**.
+This portfolio is deployed using **Vercel**.
 To deploy manually, run:
 ```sh
-npm run deploy
+vercel --prod
 ```
 
 ## Author
@@ -80,3 +81,4 @@ GitHub: [ParthBhosale123](https://github.com/ParthBhosale123)
 
 ---
 🌟 *Feel free to fork and modify this project! If you like it, give it a star ⭐ on GitHub!*
+
