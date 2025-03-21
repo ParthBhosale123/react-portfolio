@@ -1,7 +1,7 @@
 # React Portfolio Website
 
 ## Live Demo
-[Parth's Portfolio](https://react-portfolio-nltu7g63x-parth-bhosales-projects.vercel.app)
+[Parth's Portfolio](https://parthbhosale-react-portfolio.vercel.app/)
 
 ## Description
 This is a fully responsive and interactive personal portfolio website built using **React.js** and **Tailwind CSS**. The website showcases professional information, skills, projects, education, and contact details.
