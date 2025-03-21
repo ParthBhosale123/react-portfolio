@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaArrowUp } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaArrowUp,
+} from "react-icons/fa";
 
 const Contact = () => {
   const [showButton, setShowButton] = useState(false);
@@ -83,9 +88,9 @@ const Contact = () => {
       {/* Back to Top Button */}
       {showButton && (
         <motion.button
-        whileHover={{ scale: 1.2 }}
-        whileTap={{ scale: 0.9 }}
-        className="fixed bottom-5 right-5 p-3 bg-cyan-500 text-white rounded-full shadow-lg transition-opacity duration-300"
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          className="fixed bottom-5 right-5 p-3 bg-cyan-500 text-white rounded-full shadow-lg transition-opacity duration-300"
           onClick={scrollToTop}
         >
           <FaArrowUp className="text-xl" />

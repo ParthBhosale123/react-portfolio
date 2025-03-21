@@ -76,7 +76,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Framer Motion"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
   },
   {
     title: "Tic Tac Toe Game",
@@ -93,7 +100,6 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
-
 
 // export const PROJECTS = [
 //   {

@@ -1,11 +1,11 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Technologies from './components/Technologies'
-import Education from './components/Education'
-import Projects from './components/Projects'
-import Contact from './components/contact'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Technologies from "./components/Technologies";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Contact from "./components/contact";
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
         <Contact />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
