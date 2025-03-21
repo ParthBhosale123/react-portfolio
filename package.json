@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ParthBhosale123.github.io/react-portfolio",
+  "homepage": "https://react-portfolio.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
