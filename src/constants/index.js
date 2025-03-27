@@ -29,7 +29,7 @@ export const EDUCATION = [
     year: "2019 - 2020",
     university: "Maharashtra State Board.",
     college: "S. M. Lohia, Jr. College, Kolhapur.",
-    description: `HCS`,
+    description: `HSC`,
   },
   {
     year: "2017 - 2018",
