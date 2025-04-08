@@ -13,6 +13,8 @@ const container = (delay) => ({
   },
 });
 
+const resumeLink = import.meta.env.VITE_RESUME_URL;
+
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-36">
@@ -71,7 +73,7 @@ const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                href="/resume.pdf"
+                href={resumeLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Parth_Resume.pdf"
