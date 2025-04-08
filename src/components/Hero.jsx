@@ -71,7 +71,9 @@ const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                href="/react-portfolio/resume.pdf"
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 download="Parth_Resume.pdf"
                 className="relative inline-block px-6 py-3 text-white font-semibold rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg hover:shadow-blue-500/50 hover:from-purple-500 hover:to-pink-500 transition duration-300 ease-in-out"
               >
